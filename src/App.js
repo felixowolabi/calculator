@@ -12,7 +12,6 @@ function App() {
       <button>Del </button>
       <button>÷</button>
       <button>1</button>
-      <button>1</button>
       <button>2</button>
       <button>3</button>
       <button>*</button>
