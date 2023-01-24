@@ -37,7 +37,6 @@ function App() {
       <button>Del </button>
       {/* <DigitButton digit="+" dispatch={dispatch} />*/}
 
-
       <OperationButton digit="1" dispatch={dispatch} />
       <DigitButton digit="1" dispatch={dispatch} />
       <DigitButton digit="2" dispatch={dispatch} />
@@ -50,9 +49,10 @@ function App() {
       <DigitButton digit="7" dispatch={dispatch} />
       <DigitButton digit="8" dispatch={dispatch} />
       <DigitButton digit="9" dispatch={dispatch} />
-      <OperationButton digit="-" dispatch={dispatch} /> 
+      <OperationButton digit="-" dispatch={dispatch} />
       <DigitButton digit="." dispatch={dispatch} />
       <DigitButton digit="0" dispatch={dispatch} />
+      <button className="span-two">=</button>
       <button className="span-two">=</button>
     </div>
   );
