@@ -9,7 +9,6 @@ export const ACTIONS = {
   CLEAR: "clear",
   DELETE_DIGIT: "delete-digit",
   EVALUATE: "evalute",
-  theClear: "test",
 };
 
 function reducer(state, { type, payload }) {
