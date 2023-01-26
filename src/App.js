@@ -38,7 +38,6 @@ function App() {
       {/* <DigitButton digit="+" dispatch={dispatch} />*/}
 
       <OperationButton digit="1" dispatch={dispatch} />
-      <OperationButton digit="1" dispatch={dispatch} />
       <DigitButton digit="1" dispatch={dispatch} />
       <DigitButton digit="2" dispatch={dispatch} />
       <DigitButton digit="3" dispatch={dispatch} />
