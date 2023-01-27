@@ -30,7 +30,6 @@ function App() {
       <div className="output">
         <div className="previous-operand">
           {previousOperand} {operation}
-          {previousOperand} {operation}
         </div>
         <div className="current-operand">{currentOperand}</div>
       </div>
