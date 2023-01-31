@@ -34,10 +34,6 @@ body {
   grid-column: span 2;
 }
 
-.span-two1 {
-  grid-column: span 2;
-}
-
 .output {
   grid-column: 1/-1;
   background-color: rgba(0, 0, 0, 0.75);
