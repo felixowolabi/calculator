@@ -27,7 +27,6 @@ body {
 
 .calculator-grid > button {
   cursor: pointer;
-  font-size: 2rem;
 }
 
 .calculator-grid > button:hover,
