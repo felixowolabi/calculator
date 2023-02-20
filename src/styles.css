@@ -46,10 +46,6 @@ body {
   word-break: break-all;
 }
 
-.output-1 {
-  grid-column: 1/-1;
-}
-
 .output .previous-operand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
