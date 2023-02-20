@@ -19,8 +19,6 @@ body {
 
 .calculator-grid-2 {
   display: grid;
-  margin-top: 2rem;
-  justify-content: center;
 }
 
 .calculator-grid > button {
