@@ -54,8 +54,6 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   padding: 0.75rem;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 .output .previous-operand {
