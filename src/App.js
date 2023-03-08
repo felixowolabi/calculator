@@ -34,7 +34,7 @@ function App() {
         <div className="current-operand">{currentOperand}</div>
       </div>
       <button className="span-two">AC</button>
-      <button>Del </button>
+      <button>Del</button>
       {/* <DigitButton digit="+" dispatch={dispatch} />*/}
 
       <OperationButton digit="1" dispatch={dispatch} />
