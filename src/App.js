@@ -36,6 +36,13 @@ function reducer(state, { type, payload }) {
           currentOperand: null,
         };
       }
+
+      return {
+        ...state,
+        previousOperand: evalute(state),
+        operation: payload.operation,
+        currentOperand: null,
+      };
     case ACTIONS.CLEAR:
       return {};
   }
