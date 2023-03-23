@@ -28,6 +28,14 @@ function reducer(state, { type, payload }) {
       if (state.currentOperand == null && state.previousOperand == null) {
         return state;
       }
+      if (state.previousOperand == null) {
+        return {
+          ...state,
+          operation: payload.operation,
+          previousOperand: state.currentOperand,
+          currentOperand: null,
+        };
+      }
     case ACTIONS.CLEAR:
       return {};
   }
