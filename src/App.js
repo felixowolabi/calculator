@@ -47,6 +47,11 @@ function reducer(state, { type, payload }) {
       return {};
   }
 }
+
+function evalute(currentOperand, previousOperand, operation) {
+  const prev = parseFloat(previousOperand);
+  const current = parseFloat(previousOperand);
+}
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,
